@@ -1,6 +1,9 @@
-# Decision Tree for POS Support Chatbot
+---
+markmap:
+  colorFreezeLevel: 3
+---
 
-**Start Node:** "Hello! How can I assist you today? Please select a category below or type your question."
+# Union Troubleshooting
 
 ## 1. Hardware Issues
 - **Card Reader Issues**
@@ -11,36 +14,48 @@
       - idynamo6
         - Re-launch Union
         - re-seat cables
+        - Firmware Update
   - Retired Hardware
       - call support why do you still have that
 - **Printer Issues**
   - Kitchen Printer Troubleshooting
      - error lights
+        - determine light pattern
+          - 
      - power cycle for ip
        - no ip
        - bad ip
        - good ip
   - Receipt Printers RM
-       - power cycle for ip
-         - no ip
-         - bad ip
-         - good ip
-  - Help Me Remap My Printers
+      - Printer Discovery
+      - Verify Power Supply
+      - power cycle for ip
+        - no ip
+          - Re-seat Cables
+        - bad ip
+          - Call Support
+        - good ip
+          - Printer Discovery
+          - Terminal Network
+  - Help Me Remap Printers
     - MAC address
     
-  - My Printers Are Printing Slow
+  - Printers Are Printing Slow
 - **Cash Drawer Issues**
-  - My Cash Drawer Won't Open
+  - Cash Drawer Won't Open
 - **Power Issues**
-  - My Hardware Has No Power
+  - Hardware Has No Power
 - **Terminal Issues**
-  - My Terminals Are Offline
+  - Terminals Are Offline
+    - Verify network
+    - Speed Test
   - What to Do When Back Online
+  - Charging Issues
 - **Network Issues**
-  - My Network is Offline
+  - Network is Offline
   - Basic Troubleshooting Steps
   - **Order Status**
-  - Check on My Order Status
+  - Check on Order Status
 - **Hardware Orders**
   - I Want to Add-on Hardware
   - Replacement Hardware FAQs
@@ -62,31 +77,49 @@
   - Standard Permission Issues
     - POS Permissions
     - Portal Permissions
+  - Add new user
     
 ## 3. POS
 - **Reports**
   - checkouts
+    - Delete Checkout
+    - Re-run Checkout
   - eod
+    - EOD didn't run
+    - Not all sales captures
 - **Adjustments**
-
+  - Comps/Discounts/Spills/Voids
+    - How to apply
+  - Transfer items
+  - Transfer tabs
+  - Split tabs
 - **Payments**
+  - Adjust payment balance
+  - Delete payment
+  - Payment types
+    - Cash
+    - Card on File
+    - House Account
+    - Pay at Table
+    - Manual Entry
 - **Mobile Ordering**
   - QR Codes
   - Online Ordering Settings
+    - Scan to Pay
+    - Toggle Mobile Ordering
+    - Notify Customer
   - Mobile Menus
   - Featured Brands
+    - Brand reward issues
 
 
 ## 4. Integrations and Advanced Settings
 - **Gift Cards & Factor 4 Integration**
-  - Connection Process w/ Factor4
-  - Instructions for selling GCs
-  - instructions for redeeming GCs
-  - instructions for reporting on GCs
-  - See Factor4.com dashboard?
+  - Inegration Process w/ Factor4
+  - Loading GCs
+  - Redeeming GCs
 - **Third-Party Integrations**
   - eTab Integration
   - Craftable Integration
   - ShoGo Integration
 
-**Final Node:** "Is there anything else I can help you with?"
